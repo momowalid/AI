@@ -13,3 +13,6 @@
 ### 12.Vortechs *
 ### 13.Nasser EL Din Intelligent *
 ##### Companies that marked with '*' they are companies that develop smart solutions using AI for health care field
+### ***************************************************************************************************************
+# Clean Code Principles 
+## 1.
