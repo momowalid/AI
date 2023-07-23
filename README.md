@@ -65,4 +65,32 @@
 
 ## This creates a graph with nodes 1, 2, 3, and 4, and edges between 1 and 2, 2 and 3, and 3 and 4. You can then access the connections of a node by looking it up in the graph dictionary:
 ### print(g.graph[2])  // prints [1, 3]
+## ************************************************************************************************************
+
+# the basic container for programming languages 
+## 1.Rupy 
+### Array : a mutable ordered sequence of elements.
+## 2.Go
+### Slice : a dynamically sized, contiguous sequence of elements.
+## 3.PHP 
+### Array : a mutable ordered map of keys to values.
+## 4.Swift
+### Array : a mutable ordered collection of elements.
+## 5.Koltin
+### List : a mutable ordered collection of elements.
+## *********************************************************************************************************
+# the most used basic container 
+## 1.C++
+### vector : A vector is a dynamically resizable array that can store elements of any type.
+## 2.Java 
+### ArrayList : An ArrayList is a dynamically resizable array that can store elements of any type.
+## 3.R
+### Vector : A vector is a one-dimensional array that can hold elements of a single data type, such as numeric, character, or logical values.
+## 4.JavaScript
+### array : An array is an ordered collection of elements, which can be of any data type, including numbers, strings, objects, and even other arrays.
+## 5.C
+### array : An array is a collection of elements of the same data type, arranged in a contiguous block of memory.
+
+
+
 
