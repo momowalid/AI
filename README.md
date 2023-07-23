@@ -40,4 +40,29 @@
 ## 12.Minimize coupling: This principle encourages developers to minimize the dependencies between modules or classes. This helps to ensure that code is modular and easy to maintain.
 
 ## 13.Maximize cohesion: This principle encourages developers to maximize the coherence within modules or classes. This helps to ensure that code is modular and easy to maintain.
-##*************************************************************************************************************************
+## *************************************************************************************************************************
+# the implementation of the graph in python 
+## In Python, there are several ways to implement a graph data structure. One common approach is to use a dictionary to represent the graph, where the keys of the dictionary are the nodes and the values are lists of the nodes that they are connected to. Here is an example implementation of an undirected graph using a dictionary:
+### class Graph:
+###    def __init__(self):
+###        self.graph = {}
+
+###    def add_edge(self, u, v):
+###        if u not in self.graph:
+###            self.graph[u] = []
+###        if v not in self.graph:
+###            self.graph[v] = []
+###        self.graph[u].append(v)
+###        self.graph[v].append(u)
+## In this implementation, add_edge takes two nodes u and v and adds an undirected edge between them. If either u or v is not already in the graph dictionary, it is added as a key with an empty list as its value. Then, the method appends v to the list of u's connections, and vice versa.
+
+## To use this implementation, you can create a Graph object and add edges to it like this:
+
+### g = Graph()
+### g.add_edge(1, 2)
+### g.add_edge(2, 3)
+### g.add_edge(3, 4)
+
+## This creates a graph with nodes 1, 2, 3, and 4, and edges between 1 and 2, 2 and 3, and 3 and 4. You can then access the connections of a node by looking it up in the graph dictionary:
+### print(g.graph[2])  // prints [1, 3]
+
